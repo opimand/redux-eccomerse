@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cart__button.btn {
+  position: relative;
+}
+.cart__bage.badge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 17px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.quantity__card {
+  width: 51px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  margin: 20px 0px;
+}
+
+.card__sale {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #4e555b;
+  color: white;
+}

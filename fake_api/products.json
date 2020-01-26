@@ -1,0 +1,290 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "Essential cotton-blend",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 100,
+        "old": 200
+      },
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "categories": [
+        "Lifestyle",
+        "Training & Gym"
+      ],
+      "sale": true
+    },
+    {
+      "id": 1,
+      "name": "Ruffle sleeve t-shirt",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 175
+      },
+      "sizes": [
+        "XL",
+        "M"
+      ],
+      "categories": [
+        "Running",
+        "Acccesories"
+      ],
+      "sale": false
+    },
+    {
+      "id": 2,
+      "name": "Double layer top",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 200
+      },
+      "sizes": [
+        "L",
+        "S"
+      ],
+      "categories": [
+        "Scarves",
+        "Training & Gym"
+      ],
+      "sale": false
+    },
+    {
+      "id": 3,
+      "name": "V-neck cotton t-shirt",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 100
+      },
+      "sizes": [
+        "XL",
+        "M",
+        "L",
+        "S"
+      ],
+      "categories": [
+        "Lifestyle",
+        "Clothing"
+      ],
+      "sale": true
+    },
+    {
+      "id": 4,
+      "name": "Message cotton t-shirt",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 100
+      },
+      "sizes": [
+        "M",
+        "L",
+        "S"
+      ],
+      "categories": [
+        "Acccesories"
+      ],
+      "sale": false
+    },
+    {
+      "id": 5,
+      "name": "Message cotton blend",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 90,
+        "old": 110
+      },
+      "sizes": [
+        "XL"
+      ],
+      "categories": [
+        "Lifestyle",
+        "Training & Gym"
+      ],
+      "sale": true
+    },
+    {
+      "id": 6,
+      "name": "V-neck cotton blend",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 105,
+        "old": 123
+      },
+      "sizes": [
+        "L"
+      ],
+      "categories": [
+        "Lifestyle",
+        "Training & Gym",
+        "Acccesories"
+      ],
+      "sale": false
+    },
+    {
+      "id": 7,
+      "name": "Metallic thread blouse",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 79,
+        "old": 120
+      },
+      "sizes": [
+        "XL",
+        "M",
+        "L",
+        "S"
+      ],
+      "categories": [
+        "Lifestyle",
+        "Training & Gym"
+      ],
+      "sale": true
+    },
+    {
+      "id": 8,
+      "name": "Leather moccasin",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 120,
+        "old": 180
+      },
+      "sizes": [
+        "XL",
+        "L",
+        "S"
+      ],
+      "categories": [
+        "Lifestyle",
+        "Clothing"
+      ],
+      "sale": true
+    },
+    {
+      "id": 9,
+      "name": "Long printed jumpsuit",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 175
+      },
+      "sizes": [
+        "XL",
+        "M"
+      ],
+      "categories": [
+        "Running",
+        "Acccesories"
+      ],
+      "sale": false
+    },
+    {
+      "id": 10,
+      "name": "Belt short jumpsuit",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 208
+      },
+      "sizes": [
+        "L",
+        "S"
+      ],
+      "categories": [
+        "Scarves",
+        "Training & Gym"
+      ],
+      "sale": false
+    },
+    {
+      "id": 11,
+      "name": "Lace t-shirt",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 110
+      },
+      "sizes": [
+        "XL",
+        "M",
+        "S"
+      ],
+      "categories": [
+        "Lifestyle",
+        "Clothing"
+      ],
+      "sale": true
+    },
+    {
+      "id": 12,
+      "name": "Pack 2 metallic socks",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 134
+      },
+      "sizes": [
+        "XL",
+        "M",
+        "L"
+      ],
+      "categories": [
+        "Acccesories"
+      ],
+      "sale": false
+    },
+    {
+      "id": 13,
+      "name": "Ultra-light quilted coat",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 90,
+        "old": 110
+      },
+      "sizes": [
+        "S"
+      ],
+      "categories": [
+        "Clothing"
+      ],
+      "sale": true
+    },
+    {
+      "id": 14,
+      "name": "Faux shearling nappa",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 105,
+        "old": 123
+      },
+      "sizes": [
+        "XL",
+        "M",
+        "L",
+        "S"
+      ],
+      "categories": [
+        "Acccesories"
+      ],
+      "sale": false
+    },
+    {
+      "id": 15,
+      "name": "Faux-shearling suede jacket",
+      "img": "https://i.simpalsmedia.com/marketplace/products/original/4011f6e25b3a4a95702915ffaa45b8d5.jpg",
+      "price": {
+        "new": 79,
+        "old": 120
+      },
+      "sizes": [
+        "XL",
+        "M",
+        "L",
+        "S"
+      ],
+      "categories": [
+        "Training & Gym",
+        "Scarves"
+      ],
+      "sale": true
+    }
+  ]
+}
