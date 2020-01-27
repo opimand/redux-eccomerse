@@ -1,14 +1,13 @@
-import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
+import React from 'react'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import Container from 'react-bootstrap/Container'
 
-import Cart from "../Cart/Cart";
+import Cart from '../Cart/Cart'
 const Header = () => {
   return (
-   
-      <Navbar bg="light" expand="lg">
-        <Container>
+    <Navbar bg="light" expand="lg">
+      <Container>
         <Navbar.Brand href="#home">Modax</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -22,10 +21,9 @@ const Header = () => {
           </Nav>
         </Navbar.Collapse>
         <Cart />
-        </Container>
-      </Navbar>
+      </Container>
+    </Navbar>
+  )
+}
 
-  );
-};
-
-export default Header;
+export default Header
