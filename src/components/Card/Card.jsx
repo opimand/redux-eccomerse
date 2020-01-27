@@ -7,13 +7,24 @@ import Badge from 'react-bootstrap/Badge'
 
 const CardProduct = props => {
   const [count, setCount] = useState(0)
-
+  const [visibleButton, setVisible] = useState(true)
   if (count < 1) {
     setCount(1)
   }
 
+  const onClickAddCart = () => {
+    props.setQuantityAction(count)
+    setCount(0)
+    setVisible(!visibleButton)
+  }
+
+  const onClickRemove = () => {
+    props.removeCartAction(count)
+    setCount(0)
+  }
+
   return (
-    <Col key={props.key} sm={4}>
+    <Col key={props.id} sm={4}>
       <Card className="card" style={{ width: '18rem' }}>
         <Card.Img variant="top" src={props.img} />
         <Card.Body>
@@ -65,6 +76,21 @@ const CardProduct = props => {
               </svg>
             </Button>
           </ButtonGroup>
+          {visibleButton ? (
+            <Button
+              onClick={onClickAddCart}
+              style={{ marginTop: '10px', backgroundColor: '#6C757D' }}
+            >
+              Add to cart
+            </Button>
+          ) : (
+            <Button
+              onClick={onClickRemove}
+              style={{ marginTop: '10px', backgroundColor: '#6C757D' }}
+            >
+              Remove from cart
+            </Button>
+          )}
         </Card.Body>
       </Card>
     </Col>

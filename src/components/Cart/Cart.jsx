@@ -3,7 +3,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup'
 import Button from 'react-bootstrap/Button'
 import Badge from 'react-bootstrap/Badge'
 
-const CartButtons = () => {
+const CartButtons = props => {
   return (
     <ButtonGroup aria-label="Basic example">
       <Button className="cart__button" variant="secondary">
@@ -14,7 +14,7 @@ const CartButtons = () => {
           focusable="false"
           data-prefix="fas"
           data-icon="cart-plus"
-          class="svg-inline--fa fa-cart-plus fa-w-18"
+          className="svg-inline--fa fa-cart-plus fa-w-18"
           role="img"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 576 512"
@@ -25,7 +25,7 @@ const CartButtons = () => {
           ></path>
         </svg>
         <Badge className="cart__bage" variant="light">
-          9
+          {props.cartQuantity}
         </Badge>
       </Button>
       <Button variant="secondary">
@@ -37,7 +37,7 @@ const CartButtons = () => {
           focusable="false"
           data-prefix="fas"
           data-icon="search"
-          class="svg-inline--fa fa-search fa-w-16"
+          className="svg-inline--fa fa-search fa-w-16"
           role="img"
           viewBox="0 0 512 512"
         >

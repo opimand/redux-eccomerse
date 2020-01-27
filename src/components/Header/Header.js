@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 
 import Cart from '../Cart/Cart'
-const Header = () => {
+const Header = props => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -20,7 +20,7 @@ const Header = () => {
             <Nav.Link href="#link">Elements</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        <Cart />
+        <Cart cartQuantity={props.cartQuantity} />
       </Container>
     </Navbar>
   )

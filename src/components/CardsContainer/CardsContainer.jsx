@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import CardProduct from '../../components/Card/Card'
 
-const CardsContainer = () => {
+const CardsContainer = props => {
   const [count, setCount] = useState(0)
   const [procuts, setProducts] = useState([])
 
@@ -28,6 +28,8 @@ const CardsContainer = () => {
               name={product.name}
               sale={product.sale}
               price={product.price.new}
+              setQuantityAction={props.setQuantityAction}
+              removeCartAction={props.removeCartAction}
             />
           ))
         ) : (
